@@ -15,6 +15,8 @@ import { useDispatch } from 'react-redux';
 import { addtocart } from '../cartSlice';
 import { MyContext } from "../LoginContext";
 
+
+
 const Home = () => {
 
     const [mydata,setMydata] = useState([]);
